@@ -392,6 +392,12 @@
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
+		<site>
+			<id>github-project-site</id>
+			<url>gitsite:git@github.com/devopsfolks/podam.git</url>
+		</site>
+	</distributionManagement>
+	<repositories>
 		<repository>
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
@@ -400,11 +406,7 @@
                         <id>egit</id>
                         <url>https://repo.eclipse.org/content/repositories/egit-releases/</url>
                 </repository>
-		<site>
-			<id>github-project-site</id>
-			<url>gitsite:git@github.com/devopsfolks/podam.git</url>
-		</site>
-	</distributionManagement>
+	</repositories>
 
 	<dependencies>
 		<dependency>
